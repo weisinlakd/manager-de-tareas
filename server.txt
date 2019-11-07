@@ -1,0 +1,15 @@
+coleccion:
+
+    GET http://api.localhost.com/tareas ;
+
+tarea singular:
+
+    GET http://api.localhost.com/tarea/id ;
+
+modificar tarea: 
+
+    PUT http://api.localhost.com/tarea/id ;
+
+obtener tareas con prioridad alta:
+
+    GET http://api.localhost.com/tareas?prioridad=alta ;
