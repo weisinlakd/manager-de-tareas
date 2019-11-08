@@ -4,7 +4,7 @@
   "description": "prueba express",
   "main": "servidor.js",
   "scripts": {
-    "start": "node server",
+    "start": "node servidor.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "wei",
