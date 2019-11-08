@@ -32,7 +32,8 @@ app.get('/tareas/prioritarias', tareasControlador.buscarTareaXPrioridad);
 
 
 
-var puerto = '8080';
+var puerto = process.env.PORT || 3000;
+
 
 app.listen(puerto, function() {
     console.log("Escuchando pedidos en el puerto " + puerto);
