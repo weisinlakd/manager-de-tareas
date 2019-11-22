@@ -32,7 +32,7 @@ app.get('/tareas/prioritarias', tareasControlador.buscarTareaXPrioridad);
 
 
 
-var puerto = process.env.PORT || 3000;
+var puerto = process.env.PORT || 8080;
 
 
 app.listen(puerto, function() {
